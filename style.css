@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/********* common style *******/
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333333;
+}
+p{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #424242;
+}
+.btn{
+    background-color: #FF5959;
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 12px 37px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/*********** Header section ********/
+.focoused-container{
+    display: flex;
+    gap: 130px;
+    align-items: center;
+    margin-bottom: 100px;
+    border: 1px solid red;
+}
+.focoused-content p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.focoused-img img{
+    margin-top: 20px;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
