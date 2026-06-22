@@ -1,0 +1,13 @@
+@media screen and (max-width:576px) {
+    *{
+        max-width: 98%;
+    }
+    .focoused-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .my-mission-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 20px;
+    }
+}
