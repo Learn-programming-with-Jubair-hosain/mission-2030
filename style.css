@@ -63,3 +63,22 @@ p{
     margin-top: 30px;
     margin-bottom: 20px;
 }
+
+/*********** Banner section ***********/
+
+.banner-container{
+   display: flex; 
+   gap: 100px;
+   align-items: center;
+   margin-top: 120px;
+   flex-direction: row-reverse;
+}
+
+.banner-img img{
+    width: 400px;
+    height: 400px;
+}
+.banner-text p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
