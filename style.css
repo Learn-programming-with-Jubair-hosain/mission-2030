@@ -82,3 +82,52 @@ p{
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+/******** Build Corona Application *********/
+
+.application{
+    text-align: center;
+    margin: 100px;
+}
+.application span{
+    color: #FFAD5A;
+}
+.application-container{
+    display: flex;
+    gap: 150px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.application-img img{
+    width: 334px;
+    height: 542px;
+    position: relative;
+}
+.application-text span{
+    color: #FFAD5A;
+}
+.application-text p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #3e3e3eb0;
+}
+
+/********* Footer style *********/
+
+.mission{
+    height: 177px;
+    background-color: #0B0D17;
+    display: flex;
+    align-items: center;
+}
+.mission div h2{
+    color: #FFFFFF;
+    text-align: center;
+}
+.mission div h2 span{
+    color: #FF5959;
+}
+.mission div p{
+    color: #747272;
+}

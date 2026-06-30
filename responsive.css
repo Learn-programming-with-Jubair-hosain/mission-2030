@@ -16,4 +16,9 @@
     #code{
         flex-direction: column-reverse;
     }
+
+    .application-container{
+        flex-direction: column;
+        gap: 50px;
+    }
 }
